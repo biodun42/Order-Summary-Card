@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+:root {
+  --Paleblue: hsl(225, 100%, 94%);
+  --Brightblue: hsl(245, 75%, 52%);
+  --Verypaleblue: hsl(225, 100%, 98%);
+  --Desaturatedblue: hsl(224, 23%, 55%);
+  --Darkblue: hsl(223, 47%, 23%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+.Container {
+  background-color: var(--Paleblue);
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Container-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 27%;
+  border-radius: 1rem;
+  background-color: var(--Verypaleblue);
+}
+.block img {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+}
+.Alltext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+.text1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: bold;
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+.text2 {
+  color: var(--Desaturatedblue);
+  font-size: 0.9rem;
+  text-align: center;
+ padding-left: 2rem;
+   padding-right: 2rem; 
+  width: 100%;
+}
+.musicplan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(242, 245, 245);
+  border-radius: 0.5rem;
+  width: 85%;
+  margin-bottom: 1rem;
+}
+.cool {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fine img {
+  width: 40px;
+  height: 40px;
+  margin-right: 0.7rem;
+  margin-left: 0.7rem;
+}
+.text3 {
+  font-size: 0.9rem;
+  color: var(--Darkblue);
+}
+.text3 p {
+  color: var(--Desaturatedblue);
+}
+.text4 {
+  font-size: 0.9rem;
+  margin: 1.5rem;
+}
+.text4 :hover {
+  color: var(--Desaturatedblue);
+  cursor: pointer;
+  text-decoration: none;
+}
+.molo {
+  width: 85%;
+}
+.payment {
+  background-color: var(--Brightblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  color: white;
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid;
+}
+.molo :hover {
+  background-color: hsl(245, 64%, 68%);
+  cursor: pointer;
+}
+.payment p {
+  font-size: 0.8rem;
+}
+.Order {
+  display: flex;
+  color: var(--Desaturatedblue);
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  margin: 1rem;
+  padding-bottom: 1.5rem;
+  font-weight: bold;
+}
+.Order :hover {
+  color: var(--Darkblue);
+  cursor: pointer;
+}
+@media screen and (max-width: 1440px) {
+  .Container-wrapper {
+    width: 30%;
+  }
+  .text2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .musicplan {
+    width: 100%;
+  }
+  .molo {
+    width: 100%;
+  }
+  .text4 {
+    margin: 0.5rem;
+  }
+  .text1 {
+    font-size: 0.9rem;
+  }
+  .text2 {
+    font-size: 0.8rem;
+  }
+  .text3 {
+    font-size: 0.8rem;
+  }
+  .text4 {
+    font-size: 0.8rem;
+  }
+  .payment p {
+    font-size: 0.7rem;
+  }
+  .Order {
+    font-size: 0.7rem;
+  }
+  
+}
+@media screen and (max-width: 768px) {
+  .Container-wrapper {
+    width: 80%;
+  }
+  .text2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .musicplan {
+    width: 100%;
+  }
+  .molo {
+    width: 100%;
+  }
+  .text4 {
+    margin: 0.5rem;
+  }
+  .text1 {
+    font-size: 0.9rem;
+  }
+  .text2 {
+    font-size: 0.8rem;
+  }
+  .text3 {
+    font-size: 0.8rem;
+  }
+  .text4 {
+    font-size: 0.8rem;
+  }
+  .payment p {
+    font-size: 0.7rem;
+  }
+  .Order {
+    font-size: 0.7rem;
+  }
+  
+}
