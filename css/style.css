@@ -54,8 +54,8 @@
   color: var(--Desaturatedblue);
   font-size: 0.9rem;
   text-align: center;
- padding-left: 2rem;
-   padding-right: 2rem; 
+  padding-left: 2rem;
+  padding-right: 2rem;
   width: 100%;
 }
 .musicplan {
@@ -164,9 +164,12 @@
   .Order {
     font-size: 0.7rem;
   }
-  
 }
 @media screen and (max-width: 768px) {
+  .Container {
+    background-color: var(--Paleblue);
+    background-image: none;
+  }
   .Container-wrapper {
     width: 80%;
   }
@@ -201,5 +204,4 @@
   .Order {
     font-size: 0.7rem;
   }
-  
 }
